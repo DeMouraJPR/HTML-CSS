@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <H1>Imagens dinamicas</H1>
+    <p>Tente abrir esse site em vários dispositivos ou simplesmente aumente ou diminua seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Foto Grande">
+    </picture>
+    <h1>Aprendendo a reproduzir audios em HTML5</h1>
+    <p>Vamos aprender a utilizar audios em HTML5</p>
+    <audio src="media/happy-mistake.mp3" autoplay controls loop></audio>
+</body>
+</html>   
